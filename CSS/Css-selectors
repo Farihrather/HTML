@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Selectors</title>
+        <style>
+            p {
+  text-align: center;
+  color: red;
+}
+        </style>
+    </head>
+    <body>
+      <h1> CSS Selectors</h1>
+      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid est vero placeat dolorem eius animi qui, quod esse commodi enim totam cupiditate vel incidunt repellat illum laudantium? Temporibus, quidem beatae.</p>
+      <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, corrupti ut, similique nulla fugit esse obcaecati beatae placeat, soluta nisi sapiente! Impedit, similique.</p>
+    </body>
+    </html>
