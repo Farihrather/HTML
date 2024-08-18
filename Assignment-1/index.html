@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>How are you</h1>
+<label for="personnameId">Name</label>
+  <input type="text" name="personname" id="personnameId"> 
+  <label for="personageId">Age</label>
+  <input type="text" name="" id="personageId">
+  <label for="personphoneId">Phonenumber</label>
+  <input type="text" name="" id="personphoneId">
+  <button onclick="MyAddrow()">ADD</button>
+  <table>
+    <thead>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Phonenumber</th>
+    </thead>
+<tbody id="TbodyID">
+    
+   
+
+</tbody>
+  </table>
+  <script>
+function MyAddrow(){
+    
+    const age= document.getElementById('personageId').value;
+    const phone= document.getElementById('personphoneId').value;
+    var Mytbody= document.getElementById('TbodyID');
+
+   var Mynewrow= Mytbody.insertRow();
+   Mynewrow.insertCell(0).textContent=document.getElementById('personnameId').value;
+
+   var cellage= Mynewrow.insertCell(1);
+   cellage.textContent=age; 
+   var cellphone= Mynewrow.insertCell(2);
+   cellphone.textContent=phone;
+
+   newrow.insertCell(2);
+
+}
+  </script>
+</body>
+</html>
